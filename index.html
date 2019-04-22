@@ -1,15 +1,403 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 	<head>
+		<meta charset="UTF-8">
+		<title></title>
 		<meta charset="utf-8" >
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title></title>
 		<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	</head>
-	
+
 	<body>
-		 <div class="container">
+
+		<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=gbk//IGNORE"></meta>
+			<style>
+				html,
+				body,
+				p,
+				ul,
+				table,
+				tr,
+				td {
+					margin: 0;
+					padding: 0
+				}
+				
+				a {
+					text-decoration: none
+				}
+				
+				li {
+					list-style: none
+				}
+				
+				img {
+					border: 0 none
+				}
+				
+				body {
+					font-family: 'Microsoft YaHei';
+					font-size: 20px
+				}
+				
+				div,
+				span,
+				a {
+					-webkit-box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					-o-box-sizing: border-box;
+					-ms-box-sizing: border-box;
+					box-sizing: border-box
+				}
+				
+				table {
+					border-collapse: collapse;
+					border-spacing: 0;
+					border: 0 none;
+					-webkit-box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					-ms-box-sizing: border-box;
+					-o-box-sizing: border-box;
+					box-sizing: border-box
+				}
+				
+				td {
+					text-align: left
+				}
+				
+				.resume_clearfix {
+					display: block;
+					overflow: hidden;
+					clear: both
+				}
+				
+				.all_wrap {
+					width: 693px
+				}
+				
+				.logo_divide {
+					border-bottom: 1px solid #b9b9b9
+				}
+				
+				.at {
+					white-space: nowrap;
+					text-overflow: ellipsis;
+					overflow: hidden
+				}
+				
+				.page {
+					width: 693px;
+					margin: 0 auto;
+					padding: 3px;
+					background-color: #fff
+				}
+				
+				.gray {
+					color: #4d4f50 !important
+				}
+				
+				.l_green {
+					color: #6d8194 !important
+				}
+				
+				.blue {
+					color: #4567af !important
+				}
+				
+				.yellow {
+					color: #fae001 !important
+				}
+				
+				.y_green {
+					color: #ff3b5b !important
+				}
+				
+				.s_blue {
+					color: #00a0e9 !important
+				}
+				
+				.orange {
+					color: #f39800 !important
+				}
+				
+				.resume_box {
+					border: 15px solid #efefef
+				}
+				
+				.company {
+					font-size: 16px;
+					font-weight: bold
+				}
+				
+				.infomation_l {
+					width: 266px;
+					vertical-align: top;
+					background-color: #2d4e5c
+				}
+				
+				.top {
+					margin: 26px 0px 18px 0px
+				}
+				
+				.picture {
+					text-align: center
+				}
+				
+				.name {
+					height: 40px;
+					line-height: 40px;
+					font-size: 18px;
+					color: #fff;
+					text-align: center;
+					
+				}
+				
+				.posi {
+					width: 265px;
+					line-height: 14px;
+					text-align: center;
+					padding: 0 10px
+				}
+				
+				.mes_l {
+					margin-left: 20px
+				}
+				
+				.title {
+					height: 30px;
+					font-weight: bold;
+					color: #fff
+				}
+				
+				.border_b2 {
+					margin-left: 20px;
+					border-bottom: 1px solid #fff
+				}
+				
+				.per_list {
+					line-height: 35px;
+					font-size: 12px;
+					color: #fff ;
+					font-weight: bold;
+					
+				}
+				
+				.title_iconl {
+					*width: 12px;
+					padding-right: 8px
+				}
+				
+				.title_icon1 img {
+					margin-top: 5px;
+				}
+				
+				.b_border {
+					border-top: 1px solid #233c47
+				}
+				
+				.dir {
+					vertical-align: top
+				}
+				
+				.limit1 {
+					width: 180px
+				}
+				
+				.wid {
+					width: 225px
+				}
+				
+				.limit2 {
+					width: 204px
+				}
+				
+				.con {
+					position: relative;
+					width: 176px;
+					height: 16px;
+					*height: 15px;
+					top: 2px;
+					border: 1px solid #b9b9b9
+				}
+				
+				.rank {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 70%;
+					height: 16px;
+					line-height: 16px;
+					text-indent: 6px;
+					top: 0px;
+					left: 0px;
+					background-color: #b9b9b9
+				}
+				
+				.email {
+					max-width: 146px;
+					word-wrap: break-word
+				}
+				
+				.infomation_r {
+					width: 100%;
+					vertical-align: top;
+					padding-left: 12px;
+					background-color: #d1d7dd
+				}
+				
+				.mes_r {
+					margin-left: 26px;
+					padding: 9px 0 9px 0
+				}
+				
+				.title_icon {
+					*width: 17px;
+					padding-right: 8px;
+					border: 0 none
+				}
+				
+				.title_icon img {
+					margin-top: 7px
+				}
+				
+				.title_txt {
+					width: 340px;
+					height: 28px;
+					line-height: 28px;
+					font-weight: bold;
+					color: #2d4e5c;
+					text-align: left;
+					border-bottom: 1px solid #96a6ad
+				}
+				
+				.title_txt1 {
+					width: 235px;
+					height: 27px;
+					line-height: 27px;
+					font-weight: bold;
+					color: #d8dcde;
+					text-align: left
+				}
+				
+				.mes_boxl {
+					margin: 10px 0 22px 0
+				}
+				
+				.mes_detail {
+					margin: 10px 0px 16px 0px
+				}
+				
+				.mes_detail_a {
+					margin-bottom: 10px
+				}
+				
+				.mes_r .info_list {
+					line-height: 24px;
+					font-size: 12px;
+					
+					color: #000;
+					overflow: hidden;
+
+				}
+				
+				.mes_r .limit {
+					width: 550px;
+					padding-left: 10px;
+				}
+				
+				.mes_r .edu {
+					/*width: 55px;*/
+					/*line-height: 15px;*/
+					font-weight: bold;
+				}
+				
+				.mes_r .edu_a {
+					width: 100px;
+					line-height: 15px;
+					padding-left: 10px;
+				}
+				
+				.mes_r .reu {
+					max-width: 144px;
+					line-height: 15px;
+					/*left: 150px;*/
+				}
+				
+				.mes_r .reu_a {
+					max-width: 190px;
+					vertical-align: top;
+					padding-right: 10px;
+					padding-left: 150px;
+					font-weight: bold;
+				}
+				
+				.mes_r .in {
+					line-height: 22px;
+					font-size: 12px;
+					color: #4d4f50
+				}
+				
+				.mes_r .exp {
+					width: 240px
+				}
+				
+				.mes_r .pofi {
+					width: 200px;
+					/*text-align: right;*/
+					vertical-align: top
+				}
+				
+				.mes_r .edu1 {
+					width: 206px;
+					margin-right: 20px
+				}
+				
+				.mes_r .edu2 {
+					width: 220px;
+					padding-right: 20px
+				}
+				
+				.mes_r .edu2 span {
+					display: block;
+					width: 220px;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis
+				}
+				
+				.infomation_l2 {
+					position:fixed;
+					top: 100px;
+					right: 25px;
+					width: 276px;
+					vertical-align: top;
+					background-color: #f5b8c2;
+				}
+				
+				.title_txt_b {
+					width: 340px;
+					/*height: 20px;*/
+					/*line-height: 3px;*/
+					font-weight: bold;
+					color: #f38295;
+					text-align: left;
+					border-bottom: 1px solid #efefef
+				}
+				
+				.mes_l .mer_right {
+					line-height: 22px;
+					font-size: 12px;
+					color: #919191;
+					padding-left: 25px;
+				}
+			</style>
+		</head>
+
+		<body>
+			<div class="container">
 		    <div class="row">
 		        <div class="alert alert-danger alert-dismissible" role="alert" style="padding: 0;">
 		            <button type="button" onclick="this.parentNode.parentNode.removeChild(this.parentNode);" class="close" data-dismiss="alert">
@@ -20,12 +408,471 @@
 		        </div>
 			</div>
 		</div>
+		
+		
+			<div xmlns="" class="page">
+				<div class="all_wrap">
+					<table class="resume_box">
+						<tbody>
+							<tr>
+								
 
+								<td class="infomation_r" style="width:960px">
 
+									<table class="per_title">
+										<tbody>
+											<tr>
+												<td class="title_icon" valign="middle"><img src="./img/logo-1.png" alt="最高学历" width="17" height="16"></td>
+												<td width="340" style="margin-top: 50px;">
+													<p class="title_txt_b">教育背景</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
 
-		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-    	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+									<div class="mes_r">
 
-   
-	</body>
+										<table>
+											<tbody>
+												<tr class="info_list">
+													<td class="edu"><span>时间：</span></td>
+													<td class="edu_a"><span class="gray">2016.09&nbsp;—&nbsp;2020.6</span></td>
+													<td class="reu_a"><span>学校：</span></td>
+													<td class="reu"><span class="gray">佛山科学技术学院</span></td>
+													
+												</tr>
+											</tbody>
+										</table>
+
+										<table>
+											<tbody>
+												<tr class="info_list">
+													<td class="edu"><span>学历：</span></td>
+													<td class="edu_a"><span class="gray">本科</span></td>
+													<td class="reu_a"><span>&nbsp;专业：</span></td>
+													<td class="reu"><span class="gray">计算机科学与技术 </span></td>
+												</tr>
+											</tbody>
+										</table>
+
+										<table>
+											<tbody>
+												<tr class="info_list">
+													<td class="edu" style="padding-top:0"><span>主修课程：</span></td>
+													<td class="gray limit"><span>程序设计语言C、数据结构、计算机组成原理、计算机网络原理、java程序设计、算法分析与设计、数据库系统原理、Web编程与设计、操作系统课程设计、Android移动平台应用开发高级教程等。</span></td>
+												</tr>
+											</tbody>
+										</table>
+
+										<!--<table>
+											<tbody>
+												<tr class="info_list">
+													<td class="edu"><span>状态：</span></td>
+													<td class="gray limit"><span>******</span></td>
+												</tr>
+											</tbody>
+										</table>-->
+
+									</div>
+
+									<table class="per_title">
+										<tbody>
+											<tr>
+												<td class="title_icon" valign="middle"><img src="./img/logo-2.png" alt="教育经历" width="17" height="16"></td>
+												<td width="340">
+													<p class="title_txt_b">实习经历</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<div class="mes_r">
+										<p class="in"><span class="edu">时间：</span>&nbsp;&nbsp;&nbsp;2018.10&nbsp;--&nbsp;2019.01 </p>
+										<p class="in"><span class="edu">公司：</span>&nbsp;&nbsp;&nbsp;佛山市图灵鸟网络科技有限公司</p>
+										<p class="in"><span class="edu">职位：</span>&nbsp;&nbsp;&nbsp;小程序前端开发技术员</p>
+									</div>
+
+									<table class="per_title">
+										<tbody>
+											<tr>
+												<td class="title_icon" valign="middle"><img src="./img/logo-3.png" alt="个人经历" width="17" height="16"></td>
+												<td width="340">
+													<p class="title_txt_b">项目经历</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="mes_r">
+
+										<table>
+											<tbody>
+												<tr class="info_list">
+													<td class="edu"><span>项目名称：</span></td>
+													<td class="exp"><span class="gray">&nbsp;&nbsp;&nbsp;CIRCLE兴趣校园微信小程序</span></td>
+													<td class="pofi"><span>时间：</span><span class="gray">&nbsp;&nbsp;&nbsp;2018.10&nbsp;--&nbsp;2019.01</span></td>
+												</tr>
+											</tbody>
+										</table>
+
+										<table>
+											<tbody>
+												<tr class="info_list">
+													<td><span class="edu">项目职责：</span><span class="gray">&nbsp;&nbsp;&nbsp;微信小程序前端技术人员</span></td>
+													
+												</tr>
+
+												<td>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">&nbsp;*&nbsp;负责与UI设计师交流，实现界面设计对应的代码；</span>
+														</a>
+													</p>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">&nbsp;*&nbsp;负责兴趣校园小程序校园服务页面，用户主页页面，圈子页面，发帖页面，内容搜索页面，出错页面，公共</span>
+														</a>
+													</p>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray" style="margin-left: 30px;">代码实现，整个小程序的新旧页面的整合和优化等界面代码的实现；</span>
+														</a>
+													</p>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">&nbsp;*&nbsp;与后端开发人员对接，使用Git命令协助开发，运用js实现动态数据。</span>
+														</a>
+													</p>
+													
+												</td>
+												<!--注释:"text-indent:2em"能使文字空两个字符-->
+												
+												<tr class="info_list">
+													<td><span class="edu">项目成果：</span></td>
+												</tr>
+
+												<td>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">项目测试运营初期，外卖平台销售量达到几百单，平台便利店销售额最高达1000，圈子活跃人数在500人左右，目前在不断的版本更新和问题解决。</span>
+														</a>
+													</p>
+													<p style="font:400 12px Simsun;line-height:18px;">
+														<a class="gray">&nbsp;</span>
+														</a>
+													</p>
+													
+												</td>
+											</tbody>
+										</table>
+
+										<table>
+											<tbody>
+												<tr class="info_list">
+													<td class="edu"><span>项目名称：</span></td>
+													<td class="exp"><span class="gray">&nbsp;&nbsp;&nbsp;基于3D建模与VR技术的3D试衣系统</span></td>
+													<td class="pofi"><span>时间：</span><span class="gray">&nbsp;&nbsp;&nbsp;2018.05&nbsp;--&nbsp;2019.05</span></td>
+												</tr>
+											</tbody>
+										</table>
+
+										<table>
+											<tbody>
+												<tr class="info_list">
+													<td><span class="edu">项目职责：</span><span class="gray">&nbsp;&nbsp;&nbsp;项目负责人</span></td>
+												</tr>
+
+												<td>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">&nbsp;*&nbsp;主要负责项目申请书，论文的撰写，团队开发工作分配，项目应用界面设计。</span>
+														</a>
+													</p>
+													<!--<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">******</span>
+														</a>
+													</p>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">******</span>
+														</a>
+													</p>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">******</a>
+													</p>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">******</span>
+														</a>
+													</p>-->
+												</td>
+												<!--注释:"text-indent:2em"能使文字空两个字符-->
+												
+												<tr class="info_list">
+													<td><span class="edu">项目成果：</span></td>
+												</tr>
+
+												<td>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">成功推选为2018 年度省级大学生创新创业计划训练项目，发表《3D 网络试衣间的研究》论文一篇。</span>
+														</a>
+													</p>
+													
+													
+												</td>
+											</tbody>
+										</table>
+									</div>
+
+									<table class="per_title">
+										<tbody>
+											<tr>
+												<td class="title_icon" valign="middle"><img src="./img/logo-4.png" alt="校园经历" width="17" height="16"></td>
+												<td width="340">
+													<p class="title_txt_b">校园经历</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="mes_r">
+
+										<table>
+											<tbody>
+												<tr class="info_list">
+													<td class="edu" style="width: 61px;"><span>社团名称：</span></td>
+													<td class="exp" style="width: 120px;"><span class="gray">&nbsp;&nbsp;&nbsp;学院学生会</span></td>
+													<td class="edu" style="width: 61px;"><span>职位名称：</span></td>
+													<td class="exp" style="width: 120px;"><span class="gray">&nbsp;&nbsp;&nbsp;理教部副部长</span></td>
+													<td class="pofi" ><span style="width: 61px;">时间：</span><span class="gray">&nbsp;&nbsp;&nbsp;2017.9&nbsp;--&nbsp;2018.6</span></td>
+												</tr>
+											</tbody>
+										</table>
+
+										<table>
+											<tbody>
+												<tr class="info_list">
+													<td><span class="edu">工作内容：</span></td>
+												</tr>
+
+												<td>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">&nbsp;*&nbsp;负责学院辩论会的举办；</span>
+														</a>
+													</p>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">&nbsp;*&nbsp;负责学院女生节活动的举办；</span>
+														</a>
+													</p>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">&nbsp;*&nbsp;负责学院全体学生课外学分核对，统计及录入系统。</span>
+														</a>
+													</p>
+												</td>
+												<!--注释:"text-indent:2em"能使文字空两个字符-->
+											</tbody>
+										</table>
+
+										<table>
+											<tbody>
+												<tr class="info_list">
+													<td class="edu" style="width: 61px;"><span>社团名称：</span></td>
+													<td class="exp" style="width: 120px;"><span class="gray">&nbsp;&nbsp;&nbsp;计算机协会</span></td>
+													<td class="edu" style="width: 61px;"><span>职位名称：</span></td>
+													<td class="exp" style="width: 120px;"><span class="gray">&nbsp;&nbsp;&nbsp;宣传部副部长</span></td>
+													<td class="pofi" ><span style="width: 61px;">时间：</span><span class="gray">&nbsp;&nbsp;&nbsp;2017.9&nbsp;--&nbsp;2018.6</span></td>
+												</tr>
+											</tbody>
+										</table>
+
+										<table>
+											<tbody>
+												<tr class="info_list">
+													<td><span class="edu">工作内容：</span></td>
+												</tr>
+
+												<td>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">&nbsp;*&nbsp;负责招新，义修海报设计；</a>
+													</p>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">&nbsp;*&nbsp;负责计协公众号推文发布和维护；</a>
+													</p>
+													<p style="text-indent:2em;font:400 12px Simsun;line-height:18px;">
+														<a class="gray">&nbsp;*&nbsp;协助会长展开义修活动。</a>
+													</p>
+													
+												</td>
+												<!--注释:"text-indent:2em"能使文字空两个字符-->
+											</tbody>
+										</table>
+									</div>
+
+									<table class="per_title">
+										<tbody>
+											<tr>
+												<td class="title_icon" valign="middle"><img src="./img/logo-5.png" alt="自我评价" width="17" height="16"></td>
+												<td width="340">
+													<p class="title_txt_b">自我评价</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<div class="mes_r">
+										<p class="in">&nbsp;*&nbsp;本人性格活泼，热爱生活，能以很快的时间融入一个新集体；</p>
+										<p class="in">&nbsp;*&nbsp;平时喜欢打羽毛球、乒乓球；</p>
+										<p class="in">&nbsp;*&nbsp;在工作上积极认真，细心负责，善于在工作中发现问题、提出问题，有较强的分析能力；喜欢和勇于迎接新挑战。</p>
+
+									</div>
+
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			
+			<!--右侧-->
+			<div class="infomation_l2">
+									<!--<div class="top">
+										<p class="picture"><img src="" alt="简历照片" width="140" height="148"></p>
+										<p class="name">**</p>
+										<p class="posi">
+											<a class="yellow">******</a>
+										</p>
+									</div>-->
+									<div>&nbsp;</div>
+									<table class="border_b2">
+										<tbody>
+											<tr class="title">
+												<td class="title_iconl" valign="middle"><img src="https://img03.51jobcdn.com/im/2017/resumetemplate/xsl/icon7_type1.png" width="12" height="13"></td>
+												<td class="wid"><span>个人信息</span></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<div class="mes_boxl">
+
+										<table class="mes_l">
+											<tbody>
+												<tr class="per_list">
+													<td><span>性别：</span></td>
+													<td><span class="y_green">女</span></td>
+												</tr>
+												<tr class="per_list">
+													<td><span>年龄：</span></td>
+													<td><span class="y_green">22</span></td>
+												</tr>
+											</tbody>
+										</table>
+										<table class="mes_l">
+											<tbody>
+												<tr class="per_list">
+													<td class="dir"><span>籍贯：</span></td>
+													<td class="limit1"><span class="y_green">广东潮州</span></td>
+												</tr>
+											</tbody>
+										</table>
+
+										<table class="mes_l">
+											<tbody>
+												<tr class="per_list">
+													<td class="dir"><span>电话：</span></td>
+													<td class="limit2"><span class="y_green">15976335838</span></td>
+												</tr>
+											</tbody>
+										</table>
+
+										<!--<table class="mes_l">
+											<tbody>
+												<tr class="per_list">
+													<td class="dir"><span>CSDN博客：</span></td>
+													<td class="limit1"><span class="y_green">******</span></td>
+												</tr>
+											</tbody>
+										</table>-->
+
+										<table class="mes_l">
+											<tbody>
+												<tr class="per_list">
+													<td class="dir"><span>E-mail：</span></td>
+													<td class="limit1"><span class="y_green">652092209@qq.com</span></td>
+												</tr>
+											</tbody>
+										</table>
+
+									</div>
+
+									<table class="border_b2">
+										<tbody>
+											<tr class="title">
+												<td class="title_iconl" valign="middle"><img src="https://img03.51jobcdn.com/im/2017/resumetemplate/xsl/icon8_type1.png" width="12" height="13"></td>
+												<td class="wid"><span>技能技巧</span></td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="mes_boxl">
+										<table class="mes_l">
+											<tbody>
+
+												<tr class="per_list">
+													<td><span>专业：</span></td>
+													<td class="limit1"><span class="y_green">计算机科学与技术</span></td>
+												</tr>
+												<tr class="per_list">
+													<td class="dir"><span>证书：<span></td>
+													<td class="limit1">
+														<a class="y_green">软件设计师中级</a>
+													</td>
+												</tr>
+
+												<!--<tr class="per_list">
+													<td class="dir"><span>专业技能：</span></td>
+													<td class="limit1"><span class="y_green"><br/>
+																		Html/css：良好<br/>
+																		Javascript：良好<br/>
+													title_icontitle_icon					Vue：良好<br/>
+																		Mysql:一般<br/>
+																		node.js：基本熟悉<br/>
+																		Photoshop：良好<br/>
+																		Offer办公软件:良好</span></td>
+												</tr>-->
+
+											</tbody>
+										</table>
+									</div>
+									<!--<table class="border_b2">
+										<tbody>
+											<tr class="title">
+												<td class="title_iconl" valign="middle"><img src="https://img03.51jobcdn.com/im/2017/resumetemplate/xsl/icon9_type1.png" width="12" height="13"></td>
+												<td class="wid"><span>语言能力</span></td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="mes_boxl">
+										<table class="mes_l">
+											<tbody>
+
+												<tr class="per_list">
+													<td><span>中文：</span></td>
+													<td class="limit1"><span class="yellow">******</span></td>
+												</tr>
+												<tr class="per_list">
+													<td class="dir"><span>英文：</span></td>
+													<td class="limit1">
+														<a class="yellow">******</a>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>-->
+								</div>
+			
+			
+			
+			<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			
+			
+		</body>
+
+</html>
+
+</body>
+
 </html>
